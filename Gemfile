@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 source 'http://gemcutter.org'
 
-gem 'rails', '3.0.5'
+gem 'rails', '4.0.0'
 gem 'mongoid', '2.0.0.beta.20'
 gem 'bson_ext'
 gem 'yajl-ruby'
@@ -11,7 +11,7 @@ gem "bcrypt-ruby", :require => "bcrypt"
 gem 'validate_url', '0.1.6'
 gem 'email_validator'
 gem 'chronic'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 1.0.1'
 
 group :development, :test do
   gem 'rspec-rails', '2.4.1'
@@ -22,7 +22,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'launchy'
   gem 'shoulda'
-  gem 'factory_girl_rails', '1.1.beta1'
+  gem 'factory_girl_rails', '1.1.0'
   gem 'webrat'
   gem 'autotest'
   gem 'autotest-growl'
